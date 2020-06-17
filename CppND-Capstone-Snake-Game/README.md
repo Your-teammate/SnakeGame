@@ -18,7 +18,7 @@ This is a modified version of [the starter Snake game code provided by Udacity](
 * **audio_player.h/.cpp** files define the AudioPlayer class that is used in the Game class to play audio when snake eats food or dies.
 * **renderer.h/.cpp** files include the Renderer class that creates the window, renders the snake and places and renders the food.
 * **snake.h/.cpp** files have the Snake class that has the information about the snake like its current size and speed, also it has some functions that can change these values.
-* **game.h/.cpp** files contain information about the Game class that has the AudioPlayer class as one of its member variables and has the Run(Controller const &controller, Renderer &renderer, std::size_t target_frame_duration) method that contains the game loop.
+* **game.h/.cpp** files contain information about the Game class that has the AudioPlayer class as one of its member variables and has the `Run(Controller const &controller, Renderer &renderer, std::size_t target_frame_duration)` method that contains the game loop.
 * Finally, **main.cpp** file saves the default launch options and gives the opportunity to change them via console, then creates Renderer, Controller and Game instances, executes Game::Run method and outputs the score and the size of the snake after the window is closed.
 
 ## Dependencies for Running Locally
