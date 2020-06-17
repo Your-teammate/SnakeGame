@@ -6,7 +6,7 @@ This is a modified version of [the starter Snake game code provided by Udacity](
 
 ## Bug fixes
 * Fixed a bug in Game::PlaceFood() that caused food not getting placed at all if the place where it is going to be placed is occupied by the snake.
-* Fixed a bug in the Game constructor that made food able to get placed outside of the grid and thus become unreachable.
+* Fixed a bug in the Game constructor that made food to be able to get placed outside of the grid and thus become unreachable.
 
 ## New functionality
 * Now it is possible for the user to temporarily change launch options via console input (refer to main.cpp, lines 15-30).
