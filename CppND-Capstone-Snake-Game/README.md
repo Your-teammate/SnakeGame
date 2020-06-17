@@ -1,6 +1,6 @@
 # C++ Nanodegree: Capstone Snake Game
 
-This is a modified version of [starter Snake game code provided by Udacity](https://github.com/udacity/CppND-Capstone-Snake-Game) with some bug fixes and added functionality.
+This is a modified version of [the starter Snake game code provided by Udacity](https://github.com/udacity/CppND-Capstone-Snake-Game) with some bug fixes and added functionality.
 
 <img src="snake_game.gif"/>
 
